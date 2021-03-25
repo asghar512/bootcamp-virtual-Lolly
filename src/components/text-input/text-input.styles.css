@@ -1,0 +1,27 @@
+.lolly-component__text-input input {
+  font-size: 20px;
+  width: 400px;
+  padding: 5px; 
+  border: 3px solid aqua;
+  color: aqua !important;
+  background-color:transparent;
+  box-shadow: 0 0 6px aqua;
+  margin: 0px 0px 0px 0px;
+  border-radius: 12px;
+}
+
+.lolly-component__text-input label {
+  color: aqua;
+  margin-top: 10px !important; 
+  font-size: 18px;
+
+}
+
+.lolly-component__text-input {
+  margin-top: 7px;
+}
+
+.lolly-component__text-input__error {
+  color: red;
+  transform: translateY(-10px);
+}

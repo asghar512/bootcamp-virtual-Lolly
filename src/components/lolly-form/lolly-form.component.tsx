@@ -1,0 +1,57 @@
+import React from "react"
+import "./lolly-form.styles.css"
+import TextInputComponent from "../text-input/text-input.component"
+import MsgBoxComponent from "../msg-box/msg-box.component"
+import LollyBtnComponent from "../lolly-btn/lolly-btn.component"
+
+const LollyFormComponent = ({ formik }) => {
+  return (
+    <form
+      className="lolly-component__lolly-form"
+      onSubmit={formik.handleSubmit}
+    >
+      <div className="lolly-component__lolly-form__content">
+        <TextInputComponent
+          handleChange={formik.handleChange}
+          values={formik.values.recipient}
+          touched={formik.touched.recipient}
+          error={formik.errors.recipient}
+          label={"To"}
+          id={"recipient"}
+          name={"recipient"}
+          placeholder={"Your Friend Name Here!"}
+          htmlFor={"recipient"}
+        />
+        <MsgBoxComponent
+          handleChange={formik.handleChange}
+          values={formik.values.msg}
+          touched={formik.touched.msg}
+          error={formik.errors.msg}
+          label={"Write Your Message Here!"}
+          id={"msg"}
+          name={"msg"}
+          htmlFor={"msg"}
+          cols={30}
+          rows={10}
+        />
+        <TextInputComponent
+          handleChange={formik.handleChange}
+          values={formik.values.from}
+          touched={formik.touched.from}
+          error={formik.errors.from}
+          label={"From"}
+          id={"from"}
+          name={"from"}
+          placeholder={"Your Name Here!"}
+          htmlFor={"from"}
+        />
+      </div>
+      <LollyBtnComponent
+        isSubmitting={formik.isSubmitting}
+        text={"Freeze It and Get a Link of Lolly!!"}
+      />
+    </form>
+  )
+}
+
+export default LollyFormComponent

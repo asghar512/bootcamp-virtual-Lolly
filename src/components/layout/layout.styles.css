@@ -1,0 +1,10 @@
+.lollymain {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: Column;
+  background-image: url("https://frameweb.com/assets/cover/40745.jpg");
+  width: 100%;
+  height: 1100px;
+
+}

@@ -1,0 +1,26 @@
+.lolly-component__colored-lolly {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  margin: 0px 10px 90px 20px;
+}
+
+.lolly-component__colored-lolly span {
+  height: 60px;
+  width: 60px;
+  border-radius:12px ;
+  display: block !important;
+  overflow: hidden;
+  margin: 20px;
+  box-shadow: 0 0 14px grey;
+}
+
+.lolly-component__colored-lolly input {
+  margin-top: -4px;
+  margin-left: -4px;
+  width: 60px;
+  height: 60px;
+  cursor: pointer;
+}
+

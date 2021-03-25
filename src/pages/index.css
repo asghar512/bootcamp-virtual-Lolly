@@ -1,0 +1,64 @@
+.lolly-page__index {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  background-color: transparent;
+}
+
+.lolly-page__index-lollies {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+}
+
+.lolly-page__index-lollies svg {
+  margin: 0px 15px;
+
+}
+
+.lolly-page__index-heading {
+  font-family:'Times New Roman', Times, serif;
+  opacity: 0.6;
+  font-style:30px;
+  color:aqua;
+  font-size: 50px;
+  font-weight: bold;
+  margin-top: 30px;
+
+}
+.lolly-page__index_info{
+  font-family:'Times New Roman', Times, serif;
+  font-style:30px;
+  color:red;
+  font-size: 40px;
+  font-weight: 700;
+  margin-top: 20px;
+  cursor: pointer;
+}
+.lolly-page__index_info:hover{
+  color: #06F216;
+}
+ 
+
+.lolly-page__index-btn {
+  text-decoration: none;
+  margin-bottom: 20px;
+  box-shadow: 6px aqua;
+  border: 3px solid aqua;
+  background-color: transparent;
+  font-size: 20px;
+  color: grey;
+  padding: 15px 15px;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: 0.5s;
+  font-weight: 600;
+}
+
+.lolly-page__index-btn:hover {
+  background-color: greenyellow;
+  font-size: 30px;
+  color: #222;
+}

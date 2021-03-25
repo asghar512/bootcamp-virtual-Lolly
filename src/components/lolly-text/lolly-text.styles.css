@@ -1,0 +1,48 @@
+.lolly-page__lolly-text{
+  margin: 75px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: row;
+  padding-bottom: 20px;
+
+}
+
+.lolly-page__lolly-text__lolly {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.lolly-page__loading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 20px 0px;
+}
+
+.lolly-page__loading-upper {
+  margin: 30px 0px 50px 0px;
+  color: wheat;
+  font-size: 105px;
+  font-family: "Potta One", cursive;
+  background-color: tomato !important;
+}
+
+.lolly-page__loading-img {
+  animation: rotation 10s infinite linear;
+}
+
+@keyframes rotation {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.lolly-page__loading-lower {
+  margin: 50px 0px 30px 0px;
+  color: wheat;
+  font-size: 100px;
+  font-family: "Potta One", cursive;
+}
